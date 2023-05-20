@@ -1,0 +1,19 @@
+sudo docker . build -t abc
+sudo docker run  -d -p  8000:8000 qwe 
+
+# sudo docker . build -t abc
+# sudo docker run  -d -p  8000:8000 qwe 
+
+
+# FROM python:3.11.1
+
+# RUN mkdir /myblog
+# WORKDIR /myblog
+
+# COPY ./requirements.txt /myblog//requirements.txt
+# RUN pip install -r requirements.txt
+
+# COPY . /myblog
+
+
+python manage.py runserver 0.0.0.0:8000
